@@ -1,0 +1,38 @@
+{
+  "name": "NewBuyPull",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^5.0.1",
+    "npm": "^6.0.1",
+    "react": "16.3.1",
+    "react-dom": "16.3.2",
+    "react-native": "0.55.4",
+    "react-native-fbsdk": "^0.7.0",
+    "react-native-firebase": "^4.1.0",
+    "react-native-hr": "^1.1.4",
+    "react-native-hr-component": "^1.0.6",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-web": "0.6.1",
+    "react-navigation": "^2.0.1",
+    "react-redux": "5.0.7",
+    "react-universal-ui": "0.9.45",
+    "redux": "4.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "flow-bin": "^0.72.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
